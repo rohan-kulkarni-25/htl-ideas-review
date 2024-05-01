@@ -14,7 +14,7 @@ const Dashboard = () => {
     const handleGetTalks = async () => {
       try {
         let response = await axios.get(
-          "http://192.168.1.2:8080/api/v1/users/getTalks",
+          "https://htl-ideas-review-production.up.railway.app/api/v1/users/getTalks",
           { withCredentials: true }
         );
         setTotalCFPs(response.data.data.talks.length)
@@ -37,7 +37,7 @@ const Dashboard = () => {
       try {
         let response = await axios({
           method: "get",
-          url: "http://192.168.1.2:8080/api/v1/users/getUsers",
+          url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/getUsers",
           withCredentials: true,
         });
         // setMembers(response.data.data.users)

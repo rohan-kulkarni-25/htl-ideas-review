@@ -12,7 +12,7 @@ const MembersPage = () => {
     try {
       let response = await axios({
         method: "get",
-        url: "http://192.168.1.2:8080/api/v1/users/getUsers",
+        url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/getUsers",
         withCredentials: true,
       });
       setMembers(response.data.data.users)
@@ -37,7 +37,7 @@ const MembersPage = () => {
 
     await axios({
       method: "post",
-      url: "http://192.168.1.2:8080/api/v1/users/addUser",
+      url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/addUser",
       data: newMember,
       withCredentials: true,
     });
@@ -47,7 +47,7 @@ const MembersPage = () => {
   const handleDeleteMember = async(id) => {
     await axios({
       method: "delete",
-      url: "http://192.168.1.2:8080/api/v1/users/deleteUser",
+      url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/deleteUser",
       withCredentials: true,
       data:{
         userId:id

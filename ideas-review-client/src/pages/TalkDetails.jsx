@@ -15,7 +15,7 @@ const TalkDetails = () => {
   const handleSubmitReview = async (rating) => {
     await axios({
       method: "post",
-      url: "http://192.168.1.2:8080/api/v1/users/addVote",
+      url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/addVote",
       withCredentials: true,
       data: {
         talkId: talk._id,

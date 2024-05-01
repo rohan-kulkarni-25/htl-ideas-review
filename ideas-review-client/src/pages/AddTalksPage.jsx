@@ -27,7 +27,7 @@ const AddTalksPage = () => {
       console.log(jsonData[0]);
       let response = await axios({
         method: "post",
-        url: "http://192.168.1.2:8080/api/v1/users/addTalks",
+        url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/addTalks",
 
         data: {talks:jsonData},
         withCredentials: true,

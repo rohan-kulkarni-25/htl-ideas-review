@@ -29,7 +29,7 @@ const ReviewPage = () => {
   const handleGetTalks = async () => {
     try {
       let response = await axios.get(
-        "http://192.168.1.2:8080/api/v1/users/getTalks",
+        "https://htl-ideas-review-production.up.railway.app/api/v1/users/getTalks",
         { withCredentials: true }
       );
       setTalks(response.data.data.talks);

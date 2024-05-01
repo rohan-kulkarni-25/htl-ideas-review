@@ -22,7 +22,7 @@ function AuthPage() {
       let accessToken = Cookies.get("accessToken")
       let response = await axios({
         method: "post",
-        url: "http://192.168.1.2:8080/api/v1/users/login",
+        url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/login",
         data: {
           clientCode: codeParam,
           accessToken

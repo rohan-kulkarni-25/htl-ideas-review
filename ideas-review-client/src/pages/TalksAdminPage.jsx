@@ -9,7 +9,7 @@ const TalksAdminPage = () => {
     try {
       let response = await axios({
         method: "get",
-        url: "http://192.168.1.2:8080/api/v1/users/getUsers",
+        url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/getUsers",
         withCredentials: true,
       });
       setMembers(response.data.data.users)
@@ -22,7 +22,7 @@ const TalksAdminPage = () => {
     try {
       let response = await axios({
         method: "get",
-        url: "http://192.168.1.2:8080/api/v1/users/getAllTalks",
+        url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/getAllTalks",
         withCredentials: true,
       });
       setTalks(response.data.data.talks);
@@ -34,7 +34,7 @@ const TalksAdminPage = () => {
   const handleDeleteTalk = async(id) => {
     await axios({
       method: "delete",
-      url: "http://192.168.1.2:8080/api/v1/users/deleteTalk",
+      url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/deleteTalk",
       withCredentials: true,
       data:{
         talkId:id
@@ -47,7 +47,7 @@ const TalksAdminPage = () => {
   const handleStatusUpdate = async(id,status) => {
     await axios({
       method: "post",
-      url: "http://192.168.1.2:8080/api/v1/users/updateTalkStatus",
+      url: "https://htl-ideas-review-production.up.railway.app/api/v1/users/updateTalkStatus",
       withCredentials: true,
       data:{
         talkId:id,
