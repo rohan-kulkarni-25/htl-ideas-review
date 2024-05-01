@@ -15,7 +15,7 @@ app.use(morgan("dev"));
 app.use(
   cors({
 
-    origin: ['http://localhost:5173',"http://192.168.1.2:5173","https://cfp-review.vercel.app"], 
+    origin: ['http://localhost:5173',"http://192.168.1.2:5173","https://htl-ideas-review.vercel.app"], 
     credentials: true, 
     methods: ['POST', 'PUT', 'GET', 'OPTIONS', 'HEAD', 'DELETE'],
     exposedHeaders: ["set-cookie"]
