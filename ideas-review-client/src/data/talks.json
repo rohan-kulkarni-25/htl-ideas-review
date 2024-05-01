@@ -1,0 +1,30 @@
+[
+  {
+    "id": "talk_tJ0aHiq5",
+    "summary": "This talk draws parallels between native apps and Progressive Web Apps. It offers successful patterns in native apps and explains how they can be implemented in a context of PWAs.",
+    "description": "You can make any website a Progressive Web App, but how can you give it that native look and feel? During this talk, we'll cover the pillars for native-like PWAs, as well as multiple UX & performance strategies such as the app update process, code splitting, advanced app shells, push notifications & more. These techniques will make your PWA indistinguishable from a native app, while taking advantage of the benefits of the web.",
+    "title": "Secrets of native-like PWAs",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "talk__4dsq60kh",
+    "summary": "I want to come to do the Code and Learn (I work on Node.js and was invited in our tracker) and figured it would be really cool to show people how the chrome devtools work under the hood. I’ll go through the devtools protocol and we’ll set up a server driving Chrome for automation. We’ll give people a deeper understanding of how tools they use like puppeteer or selenium work.",
+    "description": "In this talk we’ll take a deep dive into how the devtools and browser automation works. We’ll see how we can write our own code supercharging chrome and we’ll go over how the most popular automation framework (selenium) and puppeteer work.",
+    "title": "Demystifying the Chrome debugger protocol: Build your own Selenium",
+    "reviewStatus": "Reviewed"
+  },
+  {
+    "id": "talk__HufwUOy0",
+    "summary": "The optimal solution to a problem isn’t always the one that first comes to mind. Instinct, in other words, isn’t always infallible and sometimes it isn’t even right. The key is to threefold: first, to maximise the number of tools in your ‘personal tool box’; second, to know all their capabilities and uses; and third, to know which tool is best suited to fix the particular problem in front of you. The process is a continuously improving one; add to the number of tools you have; get to know them better and better; and become quicker and more accomplished at identifying which tools are best to fix which issues. This talk will enable you to grow all three aspects around load testing. It will cover the core concepts behind load testing. It will look at what it means to ‘load test’ your application, how to get started with writing your first script; and explain how use the metrics to identify a performance issue within your application. It will also provide you with a case study into load testing and an insight as to the tools and techniques that we use here at the FT to help identify performance issues.",
+    "description": "The optimal solution to a problem isn’t always the one that first comes to mind. Instinct, in other words, isn’t always infallible and sometimes it isn’t even right. The key is to threefold: first, to maximise the number of tools in your ‘personal tool box’; second, to know all their capabilities and uses; and third, to know which tool is best suited to fix the particular problem in front of you. The process is a continuously improving one; add to the number of tools you have; get to know them better and better; and become quicker and more accomplished at identifying which tools are best to fix which issues. This talk will enable you to grow all three aspects around load testing. It will cover the core concepts behind load testing. It will look at what it means to ‘load test’ your application, how to get started with writing your first script; and explain how use the metrics to identify a performance issue within your application. It will also provide you with a case study into load testing and an insight as to the tools and techniques that we use here at the FT to help identify performance issues.",
+    "title": "Ready, Steady, Crash! My load testing journey …and how it came crashing down!",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "talk_PL87qq-kU",
+    "summary": "Exemplum illud exclusive… How does it feel not being able to read the sentence above? This is what we are doing every day to about 360 million people with visual impairments. As developers we don’t think very much about this numbers, and yet it’s still our responsibility to include as many people as possible in our applications. In this talk we will learn some important Javascript automation tasks e.g. enhanced color contrast and voice interfaces. Let us dive into some best practices and real-life examples to avoid making the same mistakes all over again in the future.",
+    "description": "Exemplum illud exclusive… How does it feel not being able to read the sentence above? This is what we are doing every day to about 360 million people with visual impairments. As developers we don’t think very much about this numbers, and yet it’s still our responsibility to include as many people as possible in our applications. In this talk we will learn some important Javascript automation tasks e.g. enhanced color contrast and voice interfaces. Let us dive into some best practices and real-life examples to avoid making the same mistakes all over again in the future.",
+    "title": "You can’t read this sentence - A11y automation",
+    "reviewStatus": "Reviewed"
+  }
+]
